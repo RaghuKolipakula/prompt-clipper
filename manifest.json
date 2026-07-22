@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Page to Prompt - AI Context Clipper",
+  "version": "1.0.0",
+  "description": "One-click webpage text extractor formatted as clean Markdown for ChatGPT, Claude, and Gemini.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardWrite",
+    "storage"
+  ]
+}
