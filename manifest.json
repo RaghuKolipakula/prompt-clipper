@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Page to Prompt - AI Context Clipper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One-click webpage text extractor formatted as clean Markdown for ChatGPT, Claude, and Gemini.",
   "icons": {
     "16": "icons/icon16.png",
@@ -21,7 +21,6 @@
   "permissions": [
     "activeTab",
     "scripting",
-    "clipboardWrite",
-    "storage"
+    "clipboardWrite"
   ]
 }
